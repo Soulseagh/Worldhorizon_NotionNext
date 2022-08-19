@@ -3,8 +3,8 @@ const CONFIG_HEXO = {
   HOME_BANNER_GREETINGS: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
 
   // 菜单配置
-  MENU_CATEGORY: true, // 显示分类
-  MENU_TAG: true, // 显示标签
+  MENU_CATEGORY: false, // 显示分类
+  MENU_TAG: false, // 显示标签
   MENU_ARCHIVE: true, // 显示归档
   MENU_SEARCH: true, // 显示搜索
 
@@ -13,7 +13,7 @@ const CONFIG_HEXO = {
   POST_LIST_PREVIEW: true, // 读取文章预览
 
   ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
-  ARTICLE_COPYRIGHT: true, // 显示文章版权声明
+  ARTICLE_COPYRIGHT: false, // 显示文章版权声明
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   WIDGET_LATEST_POSTS: true, // 显示最新文章卡

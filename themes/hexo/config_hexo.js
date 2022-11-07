@@ -2,6 +2,8 @@ const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
   HOME_BANNER_GREETINGS: ['Hi，I am a PhD candidate in theoretical physics', 'Yes, I am looking for a postdoctoral position', 'Welcome to my Website🎉'], // 首页大图标语文字
 
+  HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
+
   // 菜单配置
   MENU_CATEGORY: false, // 显示分类
   MENU_TAG: false, // 显示标签
